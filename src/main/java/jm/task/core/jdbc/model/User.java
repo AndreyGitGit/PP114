@@ -59,4 +59,14 @@ public class User {
     public void setAge(Byte age) {
         this.age = age;
     }
+
+    /**
+     * Переопределенный метод для представлениея пользователя в виде строки по его полям
+     *
+     * @return = возвращяемый результа.
+     */
+    @Override
+    public String toString() {
+        return String.format("User {id = '%s', name = '%s', lastName = '%s', age = '%d'}", getId(), getName(), getLastName(), getAge());
+    }
 }
