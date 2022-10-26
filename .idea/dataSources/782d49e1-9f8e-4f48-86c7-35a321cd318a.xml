@@ -1065,21 +1065,21 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb3_general_ci</CollationName>
     </table>
     <column id="299" parent="298" name="id">
-      <AutoIncrement>6</AutoIncrement>
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="300" parent="298" name="name">
-      <DataType>varchar(45)|0s</DataType>
+      <DataType>varchar(20)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="301" parent="298" name="last_name">
-      <DataType>varchar(45)|0s</DataType>
+    <column id="301" parent="298" name="lastName">
+      <DataType>varchar(20)|0s</DataType>
       <Position>3</Position>
     </column>
     <column id="302" parent="298" name="age">
-      <DataType>int|0s</DataType>
+      <DataType>tinyint|0s</DataType>
       <Position>4</Position>
     </column>
     <index id="303" parent="298" name="PRIMARY">
