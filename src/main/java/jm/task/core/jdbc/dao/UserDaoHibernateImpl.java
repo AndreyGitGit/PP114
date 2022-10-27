@@ -13,8 +13,6 @@ public class UserDaoHibernateImpl implements UserDao {
     private final SessionFactory sessionFactory = Util.getSessionFactory();
     private static final String CREATE_TABLE = "CREATE TABLE IF NOT EXISTS users (id BIGINT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(45), lastName VARCHAR(45), age INT)";
     private static final String DROP = "DROP TABLE IF EXISTS USERS";
-
-    private static final String GET_ALL = "SELECT * FROM users";
     private static final String TRUNCATE = "TRUNCATE TABLE users";
 
     public UserDaoHibernateImpl() {
